@@ -13,7 +13,7 @@ const uint8_t BMX_WHOAMI_REG_ADDR = 0xD0;
 
 void setup() {
   // Initialize the UART interface
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   // ESP32 boards have a delay with UART for some reason from a reset after
   // uploading new code to the development board
