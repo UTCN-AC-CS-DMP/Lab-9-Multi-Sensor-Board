@@ -1,6 +1,8 @@
 #include <Wire.h>
 
 void setup() {
+  Serial.begin(9600);
+  
   // ESP32 boards have a delay with UART for some reason from a reset after
   // uploading new code to the development board
 #if 1  // board was newly programmed
