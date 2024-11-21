@@ -17,6 +17,8 @@ void setup() {
   // Initialize I²C
   Wire.begin();
 
+  delay(250);
+
   // Search for all devices on the bus
   printAllI2CDevicesOnBus();
 }
