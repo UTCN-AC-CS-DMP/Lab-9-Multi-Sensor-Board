@@ -14,7 +14,7 @@ const int HW_SERIAL_RX = 16;  // RX2 on DOIT V1
 void setup() {
   // Initialize UART
   HWSerial.begin(9600, SERIAL_8N1, HW_SERIAL_RX, HW_SERIAL_TX);
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   // ESP32 boards have a delay with UART for some reason from a reset after
   // uploading new code to the development board
