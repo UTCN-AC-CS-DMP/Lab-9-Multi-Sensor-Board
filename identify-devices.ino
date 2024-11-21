@@ -26,9 +26,9 @@ void setup() {
   }
 #endif
 
-  // Initialize the I2C interface
+  // Initialize the I²C interface
   Wire.begin();
-  delay(250);  // Minor delay after starting I2C interface
+  delay(250);  // Minor delay after starting I²C interface
 
   // Using the helper function from the utils lib
   identifyDevice(MPU_ADDR_ON_BUS, MPU_WHOAMI_REG_ADDR);
