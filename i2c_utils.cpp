@@ -93,7 +93,7 @@ void identifyDevice(const uint8_t deviceAddress,
                     const uint8_t whoAmIRegAddress) {
   const uint8_t responseWhoAmI =
       i2cReadByteFromRegister(deviceAddress, whoAmIRegAddress);
-  Serial.printf("Device address on I²C bus: 0x%x, WHO_AM_I reg val --> 0x%X\n",
+  Serial.printf("Device address on I²C bus: 0x%X, WHO_AM_I reg val --> 0x%X\n",
                 deviceAddress, responseWhoAmI);
 }
 
