@@ -1,3 +1,4 @@
+// EXAMPLE CODE FOR THE MPU-6500
 #include "mpu_x.h"
 
 // -=| MPU-6500 |=-
