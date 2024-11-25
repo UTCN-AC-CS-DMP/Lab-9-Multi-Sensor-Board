@@ -40,11 +40,11 @@ void printAllI2CDevicesOnBus() {
 
     if (error == 0) {
       // If there is no error, print the address
-      Serial.printf("I²C device found at address 0x%02x\n", i);
+      Serial.printf("I²C device found at address 0x%02X\n", i);
       deviceCounter++;
     } else if (error == 4) {
       // This is in case of a faulty device
-      Serial.printf("Unknown error at address 0x%02x\n", i);
+      Serial.printf("Unknown error at address 0x%02X\n", i);
     }
   }
 
